@@ -1,0 +1,8 @@
+#!/bin/bash
+ip=www.google.com
+echo $ip >> file.txt
+
+cat file.txt
+
+curl -X GET $ip
+
