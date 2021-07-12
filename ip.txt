@@ -1,5 +1,6 @@
 #!/bin/bash
-ip=www.google.com
+ip=http://www.google.com
+echo $var1
 echo $ip >> file.txt
 
 cat file.txt
